@@ -86,8 +86,9 @@ Following alignment between the Review Council (`#114`–`#130`) and 88-NFT hold
 
 1. **No Splitting Before Real Revenue Floor (`@OneMillionExabytesPerSecond` `#128`):**
    * The 25% DAO Revenue Pool is only split into Layer 1 (Base NFT Yield) and Layer 2 (`$ONIT` Staking Boost) after quarterly net revenue reaches the minimum baseline and is published on `onton.live/dao`.
-2. **Source-Agnostic Minimum `$ONIT` Holding (`Merusaka` + `Review Council`):**
-   * To protect Getgems secondary market buyers (where a previous owner may have sold the original FairLock tokens) while preventing `"100 NFTs / 0 $ONIT"` extraction, activating Layer 1 Base Yield requires holding or staking at least **`1,000 $ONIT` per `1.0x` NFT weight unit** (`1,000` per Platinum, `500` per Gold, `250` per Silver, `100` per Bronze — counting liquid wallet + staked + unclaimed FairLock `$ONIT`, regardless of source).
+2. **Two-Tier `$ONIT` Activation Rule — Original Minters vs. Secondary Market (`@adekvatushka` `#177` + `Merusaka`):**
+   * **Tier A — Original Minters / Unclaimed FairLock Holders:** Require holding or staking **`1,000 $ONIT` per `1.0x` NFT weight unit** (`1,000` per Platinum, `500` per Gold, `250` per Silver, `100` per Bronze — covered by the holder's original FairLock allocation).
+   * **Tier B — Secondary-Market NFTs (where original FairLock `$ONIT` was already claimed/sold):** Because secondary buyers acquired NFTs on Getgems at a discount compared to original `5–15+ TON` minters who funded ONTON's development, activating Layer 1 Base Yield requires staking **`3,000–5,000 $ONIT` per `1.0x` NFT weight unit** (`3x–5x` more) in the staking pool. This keeps Getgems NFTs functional while driving real `$ONIT` market lockups.
 3. **Per-Wallet Concentration Cap (`@OneMillionExabytesPerSecond` `#128`):**
    * Matching the 5% DAO voting power cap, Layer 1 payouts are subject to a per-wallet concentration cap so no single whale wallet can drain the pool passively.
 4. **Product Demand Utility (`Merusaka` `#1404285`):**
